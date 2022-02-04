@@ -23,8 +23,11 @@ switch (true) {
  * 
  */
 
+var jugador1=1;
+var jugador2=2;
+miFuncion(jugador1,jugador2);
 
-function miFuncion(jugardor1, jugador2) {
+function miFuncion(jugador1, jugador2) {
     switch(true) {
         case jugador1===1 && jugador2===2:
             console.log("Gano jugador 2 con papel");    
